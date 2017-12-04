@@ -284,3 +284,26 @@ def fill_nan_form_guide(match_df, full_df, team_type, all_possibility):
     #print c
     #print c.most_common(1)[0][0]
     return (c.most_common(1)[0][0])
+
+def fill_zeros_age_bmi(match_df,features,team,player_types):
+    
+    player_age=match_df[features[0]]
+    player_bmi=match_df[features[1]]
+    players_age=[team + "_" + x + "_age" for x in player_types]
+    players_bmi=[team + "_" + x + "_bmi" for x in player_types]
+    all_players_team_age=match_df[players_age]
+    all_players_team_bmi=match_df[players_bmi]
+    
+    if player_age==0:
+        mean_age = sum(all_players_team_age)/3
+    if player_bmi==0:
+        mean_bmi = sum(all_players_team_bmi)/3
+    
+    else:
+        mean_age=player_age
+        mean_bmi=player_bmi
+    return mean_age,mean_bmi
+
+
+        
+    
