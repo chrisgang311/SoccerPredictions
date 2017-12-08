@@ -7,7 +7,7 @@ relevant features.
 
 ### Clustering the players based on their position in their teams 
 
-**Positions:**
+The positions in a team are:
 - Attacker
 - Defender
 - Midfielder
@@ -34,13 +34,13 @@ Thus, depending on a player's maximum skill, he will be classified into the resp
   - away_Midfielder_rating
   - home_Midfielder_rating
   
-To get the rating of a player, we get his closest rating to the match date, as every player has yearly entries for his rating.
+  To get the rating of a player, we get his closest rating to the match date, as every player has yearly entries for his rating.
 
 - **Top and Bottom players in a team** 
 
-We defined a top player in a team as any player with a rating greater than 80, and similarly defined the bottom players as the ones with rating below
-50. For both teams, the number of top and bottom players was calculated.
-
+  We defined a top player in a team as any player with a rating greater than 80, and similarly defined the bottom players as the ones  
+  with rating below 50. For both teams, the number of top and bottom players was calculated.
+  
   - num_top_players_home
   - num_top_players_away
   - num_bottom_players_home
@@ -48,7 +48,8 @@ We defined a top player in a team as any player with a rating greater than 80, a
   
 - ** Average Age for team's players in attack, defense, midfielder, and goalkeeping**
 
-Using the birthday date attribute of every player, we calculated the player's age when a certain match was played. Since the players are clustered into 4 positions, we took the average of the ages of all players in a position for both teams.
+  Using the birthday date attribute of every player, we calculated the player's age when a certain match was played. Since the players
+  are clustered into 4 positions, we took the average of the ages of all players in a position for both teams.
 
   - away_Defender_age
   - home_Defender_age
@@ -61,7 +62,8 @@ Using the birthday date attribute of every player, we calculated the player's ag
   
 - ** Average BMI for team's players in attack, defense, midfielder, and goalkeeping**
 
-Using the height and weight attributes of every player, we calculated the player's body mass index (BMI). Since the players are clustered into 4 positions, we took the average of the bmi's of all players in a position for both teams.
+  Using the height and weight attributes of every player, we calculated the player's body mass index (BMI). Since the players are
+  clustered into 4 positions, we took the average of the bmi's of all players in a position for both teams.
 
   - away_Defender_bmi
   - home_Defender_bmi
