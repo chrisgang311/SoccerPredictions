@@ -100,6 +100,9 @@ the one before those; its form guide will be **WWLLD**. A win corresponds to the
 
 - **Form guide** - Replace the NaN values with the most common form guide for that team during that season
 
+- **Player's age/bmi** - Replace the NaN values with  the average of player's age/bmi corresponding to the same position. 
+
+
 
 
 
