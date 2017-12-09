@@ -7,7 +7,7 @@ Its hyperparameters include:
 - **Base_estimator** - in this case a Decision Tree Classifier was used
 - **n_estimator** - the number of estimators at which boosting stops
 - **algorithm** - the boosting algorithm either 'SAMME' or 'SAMME.R'
-- ** learning_rate** - the rate by which the contribution of each classifier is shrunk
+- **learning_rate** - the rate by which the contribution of each classifier is shrunk
 
 ## Multi-Layer Perceptron (MLP) Classifier
 
