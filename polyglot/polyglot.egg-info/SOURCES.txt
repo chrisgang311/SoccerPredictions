@@ -66,6 +66,7 @@ polyglot.egg-info/SOURCES.txt
 polyglot.egg-info/dependency_links.txt
 polyglot.egg-info/entry_points.txt
 polyglot.egg-info/not-zip-safe
+polyglot.egg-info/requires.txt
 polyglot.egg-info/top_level.txt
 polyglot/detect/__init__.py
 polyglot/detect/base.py
