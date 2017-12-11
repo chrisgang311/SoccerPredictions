@@ -1,3 +1,0 @@
-[console_scripts]
-polyglot = polyglot.__main__:main
-
