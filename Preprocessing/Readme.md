@@ -19,7 +19,7 @@ The players were classified into their positions using a naive algorithm based o
 - gk_reflexes
 - short passing
 
-Thus, depending on a player's maximum skill, he will be classified into the respective position. For example, if the max skill is finishing, then the player is an attacker; if the max stkill is sliding_tackle, then he is a defender etc.
+Thus, depending on a player's maximum skill, he will be classified into the respective position. For example, if the max skill is finishing, then the player is an attacker; if the max skill is sliding_tackle, then he is a defender etc.
 
 ### Player Features Added 
 
