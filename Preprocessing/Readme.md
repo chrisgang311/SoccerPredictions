@@ -19,7 +19,7 @@ The players were classified into their positions using a naive algorithm based o
 - gk_reflexes
 - short passing
 
-Thus, depending on a player's maximum skill, he will be classified into the respective position. For example, if the max skill is finishing, then the player is an attacker; if the max stkill is sliding_tackle, then he is a defender etc.
+Thus, depending on a player's maximum skill, he will be classified into the respective position. For example, if the max skill is finishing, then the player is an attacker; if the max skill is sliding_tackle, then he is a defender etc.
 
 ### Player Features Added 
 
@@ -46,7 +46,7 @@ Thus, depending on a player's maximum skill, he will be classified into the resp
   - num_bottom_players_home
   - num_bottom_players_away
   
-- ** Average Age for team's players in attack, defense, midfielder, and goalkeeping**
+- **Average Age for team's players in attack, defense, midfielder, and goalkeeping**
 
   Using the birthday date attribute of every player, we calculated the player's age when a certain match was played. Since the players
   are clustered into 4 positions, we took the average of the ages of all players in a position for both teams.
@@ -60,7 +60,7 @@ Thus, depending on a player's maximum skill, he will be classified into the resp
   - away_Midfielder_age
   - home_Midfielder_age
   
-- ** Average BMI for team's players in attack, defense, midfielder, and goalkeeping**
+- **Average BMI for team's players in attack, defense, midfielder, and goalkeeping**
 
   Using the height and weight attributes of every player, we calculated the player's body mass index (BMI). Since the players are
   clustered into 4 positions, we took the average of the bmi's of all players in a position for both teams.
