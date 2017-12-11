@@ -21,7 +21,7 @@ def getAllVersionLinks():
 
 
 
-os.chdir('/Users/steeve/Documents/ETH/Austauschsemester/Data Science Laboratory/Final Project/sofifa')
+os.chdir('/Users/steeve/Documents/ETH/Austauschsemester/Data Science Laboratory/Final Project/sofifa/Files')
 files = glob.glob("FIFA*.csv")
 filename_array = []
 linkdict = getAllVersionLinks()
@@ -32,5 +32,5 @@ for filename, link in linkdict.items():
     filename_array.append(full_name)
 
 print "The following %d files missing: \n" % len(filename_array)
-#print filename_array
+print filename_array
 
