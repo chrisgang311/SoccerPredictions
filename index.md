@@ -1,5 +1,3 @@
-
-# Soccer Predictions
 <img src="title_image.jpg">
 
 ## Members
