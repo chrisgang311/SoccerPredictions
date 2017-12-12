@@ -143,10 +143,13 @@ In conclusion, it is very difficult to predict the outcome of soccer games. We w
 The first step in continuing work on this project would be collecting Twitter sentiment data on teams leading up to their matches. Work has already commenced on collecting Twitter data but due to the Twitter API rate limit, there wasn’t enough time to collect all of the data. The next step for future work would be to capture model performance on a country-by-country basis. This would allow us to see the variance in data between the results of soccer games in different countries. Another possible step in future work would be to test our model accuracy as games occur. We could then ensemble this data to our existing model to improve the results of our model. A fourth step for possible future work would be to test betting earnings of our model. For a game-by-game basis, we could bet a fixed amount on the team our model predicts and record our earnings after one season. A final step in future work on this project would be to tune our models further, which would produce better results.
 
 ## Work Cited
-[1] “Global sports market revenue 2005-2017 | Statistic.” Statista, www.statista.com/statistics/370560/worldwide-sports-market-revenue/.
+[1] “Global sports market revenue 2005-2017 | Statistic.” Statista, www.statista.com/statistics/370560/worldwide-sports-market-revenue/.<br>
 [2] “Top 10 List of the World's Most Popular Sports.” World's Most Popular Sports by Fans, www.topendsports.com/world/lists/popular-sport/fans.htm.
+<br>
 [3] Mathien, Hugo. European Soccer Database | Kaggle, 23 Oct. 2016, www.kaggle.com/hugomathien/soccer.
+<br>
 [4] Projects.fivethirtyeight.com. (2017). [online] Available at: https://projects.fivethirtyeight.com/global-club-soccer-rankings/ [Accessed 12 Dec. 2017].
+<br>
 [5] Borjigin, K. "Players FIFA 18 Dec 11, 2017 SoFIFA". n.d., https://sofifa.com. Accessed 11 December 2017.
 
 
