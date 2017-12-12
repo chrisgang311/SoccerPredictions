@@ -126,15 +126,16 @@ We compiled the accuracy that every model achieved across the different datasets
 
 ### Our Best Models
 We achieved our best results with the LightGBM and random forest models. From the absolute confusion matrices below we can see that it’s difficult for both models to predict draws. Furthermore, the random forest classifier predicts a higher rate of home wins than the LightGBM model.
+
+| | |
+|:----------------:|:-------------------:|
+| ![](https://chrisgang311.github.io/SoccerPredictions/images/confusion_lightGBM.png)   | ![](     https://chrisgang311.github.io/SoccerPredictions/images/confusion_randomforest.png) |
+
 Taking a look at the test dataset, it is important to establish percentage guidelines for each of the three classes. We can compare the values below to our normalized confusion matrices to see how well our model performed.
 
 | **Away Win** | **Draw** | **Home Win** |
 |:------------:|:--------:|:------------:|
 |    25.20%    |  30.42%  |    44.38%    |
-
-						      |
-:--------------------------------------------------------------------:|:--------------------------------------------------------------------:
-![](https://chrisgang311.github.io/SoccerPredictions/images/confusion_lightGBM.png)   |   ![](https://chrisgang311.github.io/SoccerPredictions/images/confusion_randomforest.png)
 
 ## Conclusion
 In conclusion, it is very difficult to predict the outcome of soccer games. We were able to achieve an accuracy of 52% solely using the data from Kaggle and the features we engineered and scraped. In comparison to the prediction accuracy of the most accurate betting website, which was 53%, this model performed well. Considering the fact that soccer betting websites employ the use of professional sports analysts, and our team didn’t have any professional sports analysts, our model was exceptional.
