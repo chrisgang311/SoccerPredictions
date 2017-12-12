@@ -1,3 +1,5 @@
+
+![Soccer Field](https://chrisgang311.github.io/SoccerPredictions/images/soccer_field.jpg_large)
 # Soccer Predictions
 
 ## Members
