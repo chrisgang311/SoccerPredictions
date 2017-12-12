@@ -1,6 +1,6 @@
 
 # Soccer Predictions
-<img src="images\soccer_field.png">
+<img src="images\soccer.jpg">
 
 ## Members
   * Rebecca Adaimi
