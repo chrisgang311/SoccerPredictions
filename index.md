@@ -51,7 +51,6 @@ Often enough, a soccer match is determined by a single player’s moment of grea
 
 ![Figure 1 Histogram of overall ratings for every player](https://chrisgang311.github.io/SoccerPredictions/images/overal_rating_1.png)
 
-
 #### Team Form Statistic Features
 A team’s current form during a season, historic home and away record, and head-to-head with the opposing team affect the players’ confidence and can indicate the stronger club. Therefore, we opted to generate multiple features that include:
 * **All time home (away) record** - the percentage of home (away) matches that the home (away) team wins historically
