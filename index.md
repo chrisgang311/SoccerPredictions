@@ -49,8 +49,9 @@ These features include:
 
 Often enough, a soccer match is determined by a single player’s moment of greatness or a single player’s costly mistake. In order to capture this, we added the number of top players and the number of bottom players as features. In order to define a top player and a bottom player, we visualized the distribution of the players’ ratings depicted in the figure below. Thus, a top player was defined with a rating greater than 80 and a bottom player was defined with a rating below 50. 
 
+![Figure 1 Histogram of overall ratings for every player]
+(https://chrisgang311.github.io/SoccerPredictions/images/overal_rating.png)
 
-Figure 1 Histogram of overall ratings for every player
 #### Team Form Statistic Features
 A team’s current form during a season, historic home and away record, and head-to-head with the opposing team affect the players’ confidence and can indicate the stronger club. Therefore, we opted to generate multiple features that include:
 * **All time home (away) record** - the percentage of home (away) matches that the home (away) team wins historically
@@ -120,12 +121,11 @@ We compiled the accuracy that every model achieved across the different datasets
 
 *denotes highest accuracy for each model
 
-Figure 2 Accuracy of all models for the different training datasets
+![Figure 2 Accuracy of all models for the different training datasets]
+(https://chrisgang311.github.io/SoccerPredictions/images/model_accuracy.png)
 
-
-
-Figure 3 Average accuracy of different models over the different training datasets
-
+![Figure 3 Average accuracy of different models over the different training datasets]
+(https://chrisgang311.github.io/SoccerPredictions/images/average_accuracy.png)
 
 ### Our Best Models
 We achieved our best results with the LightGBM and random forest models. From the absolute confusion matrices below we can see that it’s difficult for both models to predict draws. Furthermore, the random forest classifier predicts a higher rate of home wins than the LightGBM model.
