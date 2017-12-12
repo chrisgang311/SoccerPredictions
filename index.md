@@ -1,8 +1,6 @@
 
-![Soccer Field](https://chrisgang311.github.io/SoccerPredictions/images/soccer_field.png)
-
-
 # Soccer Predictions
+<img src="images\soccer_field.png">
 
 ## Members
   * Rebecca Adaimi
